@@ -1,0 +1,25 @@
+
+name_mangling.o:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <_Z3addv>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	5d                   	pop    %ebp
+   4:	c3                   	ret    
+
+00000005 <_Z3addii>:
+   5:	55                   	push   %ebp
+   6:	89 e5                	mov    %esp,%ebp
+   8:	d9 05 00 00 00 00    	flds   0x0
+   e:	5d                   	pop    %ebp
+   f:	c3                   	ret    
+
+00000010 <main>:
+  10:	55                   	push   %ebp
+  11:	89 e5                	mov    %esp,%ebp
+  13:	b8 00 00 00 00       	mov    $0x0,%eax
+  18:	5d                   	pop    %ebp
+  19:	c3                   	ret    

@@ -1,0 +1,75 @@
+Vtable for Base
+Base::_ZTV4Base: 4u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI4Base)
+8     (int (*)(...))Base::getWadapav
+12    (int (*)(...))Base::getShira
+
+Class Base
+   size=8 align=4
+   base size=8 base align=4
+Base (0x0xb6647230) 0
+    vptr=((& Base::_ZTV4Base) + 8u)
+
+Vtable for Derived1
+Derived1::_ZTV8Derived1: 6u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI8Derived1)
+8     (int (*)(...))Base::getWadapav
+12    (int (*)(...))Base::getShira
+16    (int (*)(...))Derived1::getLadu
+20    (int (*)(...))Derived1::getBhaji
+
+Class Derived1
+   size=8 align=4
+   base size=8 base align=4
+Derived1 (0x0xb66ebec4) 0
+    vptr=((& Derived1::_ZTV8Derived1) + 8u)
+  Base (0x0xb66473f0) 0
+      primary-for Derived1 (0x0xb66ebec4)
+
+Vtable for Derived2
+Derived2::_ZTV8Derived2: 5u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI8Derived2)
+8     (int (*)(...))Derived2::getWadapav
+12    (int (*)(...))Base::getShira
+16    (int (*)(...))Derived2::getSandwich
+
+Class Derived2
+   size=12 align=4
+   base size=12 base align=4
+Derived2 (0x0xb66ebf3c) 0
+    vptr=((& Derived2::_ZTV8Derived2) + 8u)
+  Base (0x0xb6647498) 0
+      primary-for Derived2 (0x0xb66ebf3c)
+
+Vtable for Child
+Child::_ZTV5Child: 12u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI5Child)
+8     (int (*)(...))Child::getWadapav
+12    (int (*)(...))Base::getShira
+16    (int (*)(...))Derived1::getLadu
+20    (int (*)(...))Derived1::getBhaji
+24    (int (*)(...))Child::getIceCream
+28    (int (*)(...))-8
+32    (int (*)(...))(& _ZTI5Child)
+36    (int (*)(...))Child::_ZThn8_NK5Child10getWadapavEv
+40    (int (*)(...))Base::getShira
+44    (int (*)(...))Derived2::getSandwich
+
+Class Child
+   size=20 align=4
+   base size=20 base align=4
+Child (0x0xb6714000) 0
+    vptr=((& Child::_ZTV5Child) + 8u)
+  Derived1 (0x0xb66ebfb4) 0
+      primary-for Child (0x0xb6714000)
+    Base (0x0xb6647690) 0
+        primary-for Derived1 (0x0xb66ebfb4)
+  Derived2 (0x0xb6715000) 8
+      vptr=((& Child::_ZTV5Child) + 36u)
+    Base (0x0xb6647770) 8
+        primary-for Derived2 (0x0xb6715000)
+

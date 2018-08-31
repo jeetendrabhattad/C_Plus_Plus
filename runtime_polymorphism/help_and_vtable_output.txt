@@ -1,0 +1,28 @@
+Compile using -fdump-class-hierarchy
+g++ base.cpp derived1.cpp derived2.cpp main.cpp -fdump-class-hierarchy -o runtime
+
+Output:-
+
+Vtable for Base
+Base::_ZTV4Base: 4u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI4Base)
+8     (int (*)(...))Base::getWadapav
+12    (int (*)(...))Base::getShira
+
+Vtable for Derived1
+Derived1::_ZTV8Derived1: 4u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI8Derived1)
+8     (int (*)(...))Base::getWadapav
+12    (int (*)(...))Base::getShira
+
+Vtable for Derived2
+Derived2::_ZTV8Derived2: 5u entries
+0     (int (*)(...))0			//first entry always zero, used for 
+					//	calculating offset	
+4     (int (*)(...))(& _ZTI8Derived2)   //RTTI
+8     (int (*)(...))Derived2::getWadapav
+12    (int (*)(...))Base::getShira
+16    (int (*)(...))Derived2::getSandwich
+

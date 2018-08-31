@@ -1,0 +1,1569 @@
+Class <anonymous struct>::<anonymous union>
+   size=4 align=4
+   base size=4 base align=4
+<anonymous struct>::<anonymous union> (0x0xb6ff00e0) 0
+
+Class <anonymous struct>
+   size=8 align=4
+   base size=8 base align=4
+<anonymous struct> (0x0xb6ff00a8) 0
+
+Class __locale_struct
+   size=116 align=4
+   base size=116 base align=4
+__locale_struct (0x0xb6ff0118) 0
+
+Vtable for std::exception
+std::exception::_ZTVSt9exception: 5u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt9exception)
+8     (int (*)(...))std::exception::~exception
+12    (int (*)(...))std::exception::~exception
+16    (int (*)(...))std::exception::what
+
+Class std::exception
+   size=4 align=4
+   base size=4 base align=4
+std::exception (0x0xb6ff0188) 0 nearly-empty
+    vptr=((& std::exception::_ZTVSt9exception) + 8u)
+
+Vtable for std::bad_exception
+std::bad_exception::_ZTVSt13bad_exception: 5u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt13bad_exception)
+8     (int (*)(...))std::bad_exception::~bad_exception
+12    (int (*)(...))std::bad_exception::~bad_exception
+16    (int (*)(...))std::bad_exception::what
+
+Class std::bad_exception
+   size=4 align=4
+   base size=4 base align=4
+std::bad_exception (0x0xb6f25e88) 0 nearly-empty
+    vptr=((& std::bad_exception::_ZTVSt13bad_exception) + 8u)
+  std::exception (0x0xb6ff01c0) 0 nearly-empty
+      primary-for std::bad_exception (0x0xb6f25e88)
+
+Class std::__true_type
+   size=1 align=1
+   base size=0 base align=1
+std::__true_type (0x0xb6ff01f8) 0 empty
+
+Class std::__false_type
+   size=1 align=1
+   base size=0 base align=1
+std::__false_type (0x0xb6ff0230) 0 empty
+
+Class std::__truth_type<true>
+   size=1 align=1
+   base size=0 base align=1
+std::__truth_type<true> (0x0xb6ff02a0) 0 empty
+
+Class std::__is_void<void>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_void<void> (0x0xb6ff03b8) 0 empty
+
+Class std::__is_integer<bool>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<bool> (0x0xb6ff0428) 0 empty
+
+Class std::__is_integer<char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<char> (0x0xb6ff0460) 0 empty
+
+Class std::__is_integer<signed char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<signed char> (0x0xb6ff0498) 0 empty
+
+Class std::__is_integer<unsigned char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<unsigned char> (0x0xb6ff04d0) 0 empty
+
+Class std::__is_integer<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<wchar_t> (0x0xb6ff0508) 0 empty
+
+Class std::__is_integer<short int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<short int> (0x0xb6ff0540) 0 empty
+
+Class std::__is_integer<short unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<short unsigned int> (0x0xb6ff0578) 0 empty
+
+Class std::__is_integer<int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<int> (0x0xb6ff05b0) 0 empty
+
+Class std::__is_integer<unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<unsigned int> (0x0xb6ff05e8) 0 empty
+
+Class std::__is_integer<long int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<long int> (0x0xb6ff0620) 0 empty
+
+Class std::__is_integer<long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<long unsigned int> (0x0xb6ff0658) 0 empty
+
+Class std::__is_integer<long long int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<long long int> (0x0xb6ff0690) 0 empty
+
+Class std::__is_integer<long long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<long long unsigned int> (0x0xb6ff06c8) 0 empty
+
+Class std::__is_floating<float>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_floating<float> (0x0xb6ff0738) 0 empty
+
+Class std::__is_floating<double>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_floating<double> (0x0xb6ff0770) 0 empty
+
+Class std::__is_floating<long double>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_floating<long double> (0x0xb6ff07a8) 0 empty
+
+Class std::__is_char<char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_char<char> (0x0xb6ff09a0) 0 empty
+
+Class std::__is_char<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_char<wchar_t> (0x0xb6ff09d8) 0 empty
+
+Class std::__is_byte<char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_byte<char> (0x0xb6ff0a48) 0 empty
+
+Class std::__is_byte<signed char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_byte<signed char> (0x0xb6ff0a80) 0 empty
+
+Class std::__is_byte<unsigned char>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_byte<unsigned char> (0x0xb6ff0ab8) 0 empty
+
+Class __gnu_cxx::__add_unsigned<char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<char> (0x0xb6ff0c40) 0 empty
+
+Class __gnu_cxx::__add_unsigned<signed char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<signed char> (0x0xb6ff0c78) 0 empty
+
+Class __gnu_cxx::__add_unsigned<short int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<short int> (0x0xb6ff0cb0) 0 empty
+
+Class __gnu_cxx::__add_unsigned<int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<int> (0x0xb6ff0ce8) 0 empty
+
+Class __gnu_cxx::__add_unsigned<long int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<long int> (0x0xb6ff0d20) 0 empty
+
+Class __gnu_cxx::__add_unsigned<long long int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__add_unsigned<long long int> (0x0xb6ff0d58) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<char> (0x0xb6ff0dc8) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<unsigned char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<unsigned char> (0x0xb6ff0e00) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<short unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<short unsigned int> (0x0xb6ff0e38) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<unsigned int> (0x0xb6ff0e70) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<long unsigned int> (0x0xb6ff0ea8) 0 empty
+
+Class __gnu_cxx::__remove_unsigned<long long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__remove_unsigned<long long unsigned int> (0x0xb6ff0ee0) 0 empty
+
+Class std::__is_integer<long double>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<long double> (0x0xb6ff0f88) 0 empty
+
+Class __gnu_cxx::__promote<long double>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__promote<long double> (0x0xb6ff0fc0) 0 empty
+
+Class std::__is_integer<double>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<double> (0x0xb70a6000) 0 empty
+
+Class __gnu_cxx::__promote<double>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__promote<double> (0x0xb70a6038) 0 empty
+
+Class std::__is_integer<float>
+   size=1 align=1
+   base size=0 base align=1
+std::__is_integer<float> (0x0xb70a6070) 0 empty
+
+Class __gnu_cxx::__promote<float>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__promote<float> (0x0xb70a60a8) 0 empty
+
+Class std::input_iterator_tag
+   size=1 align=1
+   base size=0 base align=1
+std::input_iterator_tag (0x0xb70a6268) 0 empty
+
+Class std::output_iterator_tag
+   size=1 align=1
+   base size=0 base align=1
+std::output_iterator_tag (0x0xb70a62a0) 0 empty
+
+Class std::forward_iterator_tag
+   size=1 align=1
+   base size=1 base align=1
+std::forward_iterator_tag (0x0xb70a4c6c) 0 empty
+  std::input_iterator_tag (0x0xb70a62d8) 0 empty
+
+Class std::bidirectional_iterator_tag
+   size=1 align=1
+   base size=1 base align=1
+std::bidirectional_iterator_tag (0x0xb70a4ce4) 0 empty
+  std::forward_iterator_tag (0x0xb70a4d20) 0 empty
+    std::input_iterator_tag (0x0xb70a6310) 0 empty
+
+Class std::random_access_iterator_tag
+   size=1 align=1
+   base size=1 base align=1
+std::random_access_iterator_tag (0x0xb70a4d98) 0 empty
+  std::bidirectional_iterator_tag (0x0xb70a4dd4) 0 empty
+    std::forward_iterator_tag (0x0xb70a4e10) 0 empty
+      std::input_iterator_tag (0x0xb70a6348) 0 empty
+
+Class std::iterator<std::output_iterator_tag, void, void, void, void>
+   size=1 align=1
+   base size=0 base align=1
+std::iterator<std::output_iterator_tag, void, void, void, void> (0x0xb70a6508) 0 empty
+
+Class std::__iter_swap<true>
+   size=1 align=1
+   base size=0 base align=1
+std::__iter_swap<true> (0x0xb70a6658) 0 empty
+
+Class std::__copy_move<false, false, std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::__copy_move<false, false, std::random_access_iterator_tag> (0x0xb70a6738) 0 empty
+
+Class std::__copy_move_backward<false, false, std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::__copy_move_backward<false, false, std::random_access_iterator_tag> (0x0xb70a67e0) 0 empty
+
+Class std::__equal<true>
+   size=1 align=1
+   base size=0 base align=1
+std::__equal<true> (0x0xb70a6888) 0 empty
+
+Class std::__lc_rai<std::random_access_iterator_tag, std::random_access_iterator_tag>
+   size=1 align=1
+   base size=0 base align=1
+std::__lc_rai<std::random_access_iterator_tag, std::random_access_iterator_tag> (0x0xb70a68f8) 0 empty
+
+Class std::__lexicographical_compare<true>
+   size=1 align=1
+   base size=0 base align=1
+std::__lexicographical_compare<true> (0x0xb70a6968) 0 empty
+
+Class std::char_traits<char>
+   size=1 align=1
+   base size=0 base align=1
+std::char_traits<char> (0x0xb70a6a48) 0 empty
+
+Class std::char_traits<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::char_traits<wchar_t> (0x0xb70a6a80) 0 empty
+
+Class lconv
+   size=56 align=4
+   base size=56 base align=4
+lconv (0x0xb70a6ab8) 0
+
+Class <anonymous struct>
+   size=8 align=4
+   base size=8 base align=4
+<anonymous struct> (0x0xb70a6af0) 0
+
+Class timespec
+   size=8 align=4
+   base size=8 base align=4
+timespec (0x0xb70a6b28) 0
+
+Class sched_param
+   size=4 align=4
+   base size=4 base align=4
+sched_param (0x0xb70a6b60) 0
+
+Class __sched_param
+   size=4 align=4
+   base size=4 base align=4
+__sched_param (0x0xb70a6b98) 0
+
+Class <anonymous struct>
+   size=128 align=4
+   base size=128 base align=4
+<anonymous struct> (0x0xb70a6bd0) 0
+
+Class timeval
+   size=8 align=4
+   base size=8 base align=4
+timeval (0x0xb70a6c08) 0
+
+Class timex
+   size=128 align=4
+   base size=128 base align=4
+timex (0x0xb70a6c40) 0
+
+Class tm
+   size=44 align=4
+   base size=44 base align=4
+tm (0x0xb70a6c78) 0
+
+Class itimerspec
+   size=16 align=4
+   base size=16 base align=4
+itimerspec (0x0xb70a6ce8) 0
+
+Class pthread_attr_t
+   size=36 align=4
+   base size=36 base align=4
+pthread_attr_t (0x0xb70a6d20) 0
+
+Class __pthread_internal_slist
+   size=4 align=4
+   base size=4 base align=4
+__pthread_internal_slist (0x0xb70a6d58) 0
+
+Class <anonymous union>::__pthread_mutex_s::<anonymous union>::<anonymous struct>
+   size=4 align=2
+   base size=4 base align=2
+<anonymous union>::__pthread_mutex_s::<anonymous union>::<anonymous struct> (0x0xb70a6e38) 0
+
+Class <anonymous union>::__pthread_mutex_s::<anonymous union>
+   size=4 align=4
+   base size=4 base align=4
+<anonymous union>::__pthread_mutex_s::<anonymous union> (0x0xb70a6e00) 0
+
+Class <anonymous union>::__pthread_mutex_s
+   size=24 align=4
+   base size=24 base align=4
+<anonymous union>::__pthread_mutex_s (0x0xb70a6dc8) 0
+
+Class <anonymous union>
+   size=24 align=4
+   base size=24 base align=4
+<anonymous union> (0x0xb70a6d90) 0
+
+Class <anonymous union>
+   size=4 align=4
+   base size=4 base align=4
+<anonymous union> (0x0xb70a6e70) 0
+
+Class <anonymous union>::<anonymous struct>
+   size=44 align=4
+   base size=44 base align=4
+<anonymous union>::<anonymous struct> (0x0xb70a6ee0) 0
+
+Class <anonymous union>
+   size=48 align=4
+   base size=48 base align=4
+<anonymous union> (0x0xb70a6ea8) 0
+
+Class <anonymous union>
+   size=4 align=4
+   base size=4 base align=4
+<anonymous union> (0x0xb70a6f18) 0
+
+Class <anonymous union>::<anonymous struct>
+   size=32 align=4
+   base size=32 base align=4
+<anonymous union>::<anonymous struct> (0x0xb70a6f88) 0
+
+Class <anonymous union>
+   size=32 align=4
+   base size=32 base align=4
+<anonymous union> (0x0xb70a6f50) 0
+
+Class <anonymous union>
+   size=8 align=4
+   base size=8 base align=4
+<anonymous union> (0x0xb69e4000) 0
+
+Class <anonymous union>
+   size=20 align=4
+   base size=20 base align=4
+<anonymous union> (0x0xb69e4038) 0
+
+Class <anonymous union>
+   size=4 align=4
+   base size=4 base align=4
+<anonymous union> (0x0xb69e4070) 0
+
+Class _pthread_cleanup_buffer
+   size=16 align=4
+   base size=16 base align=4
+_pthread_cleanup_buffer (0x0xb69e40a8) 0
+
+Class <anonymous struct>::<anonymous struct>
+   size=28 align=4
+   base size=28 base align=4
+<anonymous struct>::<anonymous struct> (0x0xb69e4118) 0
+
+Class <anonymous struct>
+   size=44 align=4
+   base size=44 base align=4
+<anonymous struct> (0x0xb69e40e0) 0
+
+Class __pthread_cleanup_frame
+   size=16 align=4
+   base size=16 base align=4
+__pthread_cleanup_frame (0x0xb69e4150) 0
+
+Class __pthread_cleanup_class
+   size=16 align=4
+   base size=16 base align=4
+__pthread_cleanup_class (0x0xb69e4188) 0
+
+Vtable for std::bad_alloc
+std::bad_alloc::_ZTVSt9bad_alloc: 5u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt9bad_alloc)
+8     (int (*)(...))std::bad_alloc::~bad_alloc
+12    (int (*)(...))std::bad_alloc::~bad_alloc
+16    (int (*)(...))std::bad_alloc::what
+
+Class std::bad_alloc
+   size=4 align=4
+   base size=4 base align=4
+std::bad_alloc (0x0xb6a19528) 0 nearly-empty
+    vptr=((& std::bad_alloc::_ZTVSt9bad_alloc) + 8u)
+  std::exception (0x0xb69e4268) 0 nearly-empty
+      primary-for std::bad_alloc (0x0xb6a19528)
+
+Class std::nothrow_t
+   size=1 align=1
+   base size=0 base align=1
+std::nothrow_t (0x0xb69e42a0) 0 empty
+
+Class std::allocator<void>
+   size=1 align=1
+   base size=0 base align=1
+std::allocator<void> (0x0xb69e4348) 0 empty
+
+Class __gnu_cxx::new_allocator<char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::new_allocator<char> (0x0xb69e4428) 0 empty
+
+Class std::allocator<char>
+   size=1 align=1
+   base size=1 base align=1
+std::allocator<char> (0x0xb6a35384) 0 empty
+  __gnu_cxx::new_allocator<char> (0x0xb69e4460) 0 empty
+
+Class __gnu_cxx::new_allocator<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::new_allocator<wchar_t> (0x0xb69e4498) 0 empty
+
+Class std::allocator<wchar_t>
+   size=1 align=1
+   base size=1 base align=1
+std::allocator<wchar_t> (0x0xb6a35438) 0 empty
+  __gnu_cxx::new_allocator<wchar_t> (0x0xb69e44d0) 0 empty
+
+Vtable for __cxxabiv1::__forced_unwind
+__cxxabiv1::__forced_unwind::_ZTVN10__cxxabiv115__forced_unwindE: 5u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTIN10__cxxabiv115__forced_unwindE)
+8     (int (*)(...))__cxxabiv1::__forced_unwind::~__forced_unwind
+12    (int (*)(...))__cxxabiv1::__forced_unwind::~__forced_unwind
+16    (int (*)(...))__cxa_pure_virtual
+
+Class __cxxabiv1::__forced_unwind
+   size=4 align=4
+   base size=4 base align=4
+__cxxabiv1::__forced_unwind (0x0xb69e45e8) 0 nearly-empty
+    vptr=((& __cxxabiv1::__forced_unwind::_ZTVN10__cxxabiv115__forced_unwindE) + 8u)
+
+Class __gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<int>, __gnu_cxx::__numeric_traits_floating<int> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<int>, __gnu_cxx::__numeric_traits_floating<int> > (0x0xb6a83658) 0 empty
+
+Class __gnu_cxx::__numeric_traits_integer<int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_integer<int> (0x0xb6a83690) 0 empty
+
+Class __gnu_cxx::__numeric_traits<int>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<int> (0x0xb6ad1870) 0 empty
+  __gnu_cxx::__numeric_traits_integer<int> (0x0xb6a836c8) 0 empty
+
+Class std::allocator<char>::rebind<char>
+   size=1 align=1
+   base size=0 base align=1
+std::allocator<char>::rebind<char> (0x0xb6a837a8) 0 empty
+
+Class std::basic_string<char>::_Alloc_hider
+   size=4 align=4
+   base size=4 base align=4
+std::basic_string<char>::_Alloc_hider (0x0xb6b419d8) 0
+  std::allocator<char> (0x0xb6b41a14) 0 empty
+    __gnu_cxx::new_allocator<char> (0x0xb6a83818) 0 empty
+
+Class std::basic_string<char>
+   size=4 align=4
+   base size=4 base align=4
+std::basic_string<char> (0x0xb6a83770) 0
+
+Class std::basic_string<char>::_Rep_base
+   size=12 align=4
+   base size=12 base align=4
+std::basic_string<char>::_Rep_base (0x0xb6a83850) 0
+
+Class std::basic_string<char>::_Rep
+   size=12 align=4
+   base size=12 base align=4
+std::basic_string<char>::_Rep (0x0xb6b41b7c) 0
+  std::basic_string<char>::_Rep_base (0x0xb6a83888) 0
+
+Class std::allocator<wchar_t>::rebind<wchar_t>
+   size=1 align=1
+   base size=0 base align=1
+std::allocator<wchar_t>::rebind<wchar_t> (0x0xb6a83930) 0 empty
+
+Class std::basic_string<wchar_t>::_Alloc_hider
+   size=4 align=4
+   base size=4 base align=4
+std::basic_string<wchar_t>::_Alloc_hider (0x0xb6b41ce4) 0
+  std::allocator<wchar_t> (0x0xb6b41d20) 0 empty
+    __gnu_cxx::new_allocator<wchar_t> (0x0xb6a839a0) 0 empty
+
+Class std::basic_string<wchar_t>
+   size=4 align=4
+   base size=4 base align=4
+std::basic_string<wchar_t> (0x0xb6a838f8) 0
+
+Class std::basic_string<wchar_t>::_Rep_base
+   size=12 align=4
+   base size=12 base align=4
+std::basic_string<wchar_t>::_Rep_base (0x0xb6a839d8) 0
+
+Class std::allocator<wchar_t>::rebind<char>
+   size=1 align=1
+   base size=0 base align=1
+std::allocator<wchar_t>::rebind<char> (0x0xb6a83a48) 0 empty
+
+Class std::basic_string<wchar_t>::_Rep
+   size=12 align=4
+   base size=12 base align=4
+std::basic_string<wchar_t>::_Rep (0x0xb6b41e88) 0
+  std::basic_string<wchar_t>::_Rep_base (0x0xb6a83a10) 0
+
+Class std::locale
+   size=4 align=4
+   base size=4 base align=4
+std::locale (0x0xb6a83ab8) 0
+
+Vtable for std::locale::facet
+std::locale::facet::_ZTVNSt6locale5facetE: 4u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTINSt6locale5facetE)
+8     (int (*)(...))std::locale::facet::~facet
+12    (int (*)(...))std::locale::facet::~facet
+
+Class std::locale::facet
+   size=8 align=4
+   base size=8 base align=4
+std::locale::facet (0x0xb6a83af0) 0
+    vptr=((& std::locale::facet::_ZTVNSt6locale5facetE) + 8u)
+
+Class std::locale::id
+   size=4 align=4
+   base size=4 base align=4
+std::locale::id (0x0xb6a83b28) 0
+
+Class std::locale::_Impl
+   size=20 align=4
+   base size=20 base align=4
+std::locale::_Impl (0x0xb6a83b60) 0
+
+Vtable for std::collate<char>
+std::collate<char>::_ZTVSt7collateIcE: 7u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt7collateIcE)
+8     (int (*)(...))std::collate<_CharT>::~collate<char>
+12    (int (*)(...))std::collate<_CharT>::~collate<char>
+16    (int (*)(...))std::collate<_CharT>::do_compare<char>
+20    (int (*)(...))std::collate<_CharT>::do_transform<char>
+24    (int (*)(...))std::collate<_CharT>::do_hash<char>
+
+Class std::collate<char>
+   size=12 align=4
+   base size=12 base align=4
+std::collate<char> (0x0xb67c1f3c) 0
+    vptr=((& std::collate<char>::_ZTVSt7collateIcE) + 8u)
+  std::locale::facet (0x0xb6a83c40) 0
+      primary-for std::collate<char> (0x0xb67c1f3c)
+
+Vtable for std::collate<wchar_t>
+std::collate<wchar_t>::_ZTVSt7collateIwE: 7u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt7collateIwE)
+8     (int (*)(...))std::collate<_CharT>::~collate<wchar_t>
+12    (int (*)(...))std::collate<_CharT>::~collate<wchar_t>
+16    (int (*)(...))std::collate<_CharT>::do_compare<wchar_t>
+20    (int (*)(...))std::collate<_CharT>::do_transform<wchar_t>
+24    (int (*)(...))std::collate<_CharT>::do_hash<wchar_t>
+
+Class std::collate<wchar_t>
+   size=12 align=4
+   base size=12 base align=4
+std::collate<wchar_t> (0x0xb67ec078) 0
+    vptr=((& std::collate<wchar_t>::_ZTVSt7collateIwE) + 8u)
+  std::locale::facet (0x0xb6a83c78) 0
+      primary-for std::collate<wchar_t> (0x0xb67ec078)
+
+Class __gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<long unsigned int>, __gnu_cxx::__numeric_traits_floating<long unsigned int> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<long unsigned int>, __gnu_cxx::__numeric_traits_floating<long unsigned int> > (0x0xb6a83d20) 0 empty
+
+Class __gnu_cxx::__numeric_traits_integer<long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_integer<long unsigned int> (0x0xb6a83d58) 0 empty
+
+Class __gnu_cxx::__numeric_traits<long unsigned int>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<long unsigned int> (0x0xb67ecf3c) 0 empty
+  __gnu_cxx::__numeric_traits_integer<long unsigned int> (0x0xb6a83d90) 0 empty
+
+Vtable for std::collate_byname<char>
+std::collate_byname<char>::_ZTVSt14collate_bynameIcE: 7u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt14collate_bynameIcE)
+8     (int (*)(...))std::collate_byname<_CharT>::~collate_byname<char>
+12    (int (*)(...))std::collate_byname<_CharT>::~collate_byname<char>
+16    (int (*)(...))std::collate<_CharT>::do_compare<char>
+20    (int (*)(...))std::collate<_CharT>::do_transform<char>
+24    (int (*)(...))std::collate<_CharT>::do_hash<char>
+
+Class std::collate_byname<char>
+   size=12 align=4
+   base size=12 base align=4
+std::collate_byname<char> (0x0xb680003c) 0
+    vptr=((& std::collate_byname<char>::_ZTVSt14collate_bynameIcE) + 8u)
+  std::collate<char> (0x0xb6800078) 0
+      primary-for std::collate_byname<char> (0x0xb680003c)
+    std::locale::facet (0x0xb6a83e00) 0
+        primary-for std::collate<char> (0x0xb6800078)
+
+Vtable for std::collate_byname<wchar_t>
+std::collate_byname<wchar_t>::_ZTVSt14collate_bynameIwE: 7u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt14collate_bynameIwE)
+8     (int (*)(...))std::collate_byname<_CharT>::~collate_byname<wchar_t>
+12    (int (*)(...))std::collate_byname<_CharT>::~collate_byname<wchar_t>
+16    (int (*)(...))std::collate<_CharT>::do_compare<wchar_t>
+20    (int (*)(...))std::collate<_CharT>::do_transform<wchar_t>
+24    (int (*)(...))std::collate<_CharT>::do_hash<wchar_t>
+
+Class std::collate_byname<wchar_t>
+   size=12 align=4
+   base size=12 base align=4
+std::collate_byname<wchar_t> (0x0xb68000f0) 0
+    vptr=((& std::collate_byname<wchar_t>::_ZTVSt14collate_bynameIwE) + 8u)
+  std::collate<wchar_t> (0x0xb680012c) 0
+      primary-for std::collate_byname<wchar_t> (0x0xb68000f0)
+    std::locale::facet (0x0xb6a83e38) 0
+        primary-for std::collate<wchar_t> (0x0xb680012c)
+
+Vtable for std::ios_base::failure
+std::ios_base::failure::_ZTVNSt8ios_base7failureE: 5u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTINSt8ios_base7failureE)
+8     (int (*)(...))std::ios_base::failure::~failure
+12    (int (*)(...))std::ios_base::failure::~failure
+16    (int (*)(...))std::ios_base::failure::what
+
+Class std::ios_base::failure
+   size=8 align=4
+   base size=8 base align=4
+std::ios_base::failure (0x0xb6800690) 0
+    vptr=((& std::ios_base::failure::_ZTVNSt8ios_base7failureE) + 8u)
+  std::exception (0x0xb6a83ea8) 0 nearly-empty
+      primary-for std::ios_base::failure (0x0xb6800690)
+
+Class std::ios_base::_Callback_list
+   size=16 align=4
+   base size=16 base align=4
+std::ios_base::_Callback_list (0x0xb6a83ee0) 0
+
+Class std::ios_base::_Words
+   size=8 align=4
+   base size=8 base align=4
+std::ios_base::_Words (0x0xb6a83f18) 0
+
+Class std::ios_base::Init
+   size=1 align=1
+   base size=0 base align=1
+std::ios_base::Init (0x0xb6a83f50) 0 empty
+
+Vtable for std::ios_base
+std::ios_base::_ZTVSt8ios_base: 4u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt8ios_base)
+8     (int (*)(...))std::ios_base::~ios_base
+12    (int (*)(...))std::ios_base::~ios_base
+
+Class std::ios_base
+   size=112 align=4
+   base size=112 base align=4
+std::ios_base (0x0xb6a83e70) 0
+    vptr=((& std::ios_base::_ZTVSt8ios_base) + 8u)
+
+Vtable for std::basic_streambuf<char>
+std::basic_streambuf<char>::_ZTVSt15basic_streambufIcSt11char_traitsIcEE: 16u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt15basic_streambufIcSt11char_traitsIcEE)
+8     (int (*)(...))std::basic_streambuf<_CharT, _Traits>::~basic_streambuf<char, std::char_traits<char> >
+12    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::~basic_streambuf<char, std::char_traits<char> >
+16    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::imbue<char, std::char_traits<char> >
+20    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::setbuf<char, std::char_traits<char> >
+24    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::seekoff<char, std::char_traits<char> >
+28    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::seekpos<char, std::char_traits<char> >
+32    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::sync<char, std::char_traits<char> >
+36    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::showmanyc<char, std::char_traits<char> >
+40    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::xsgetn<char, std::char_traits<char> >
+44    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::underflow<char, std::char_traits<char> >
+48    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::uflow<char, std::char_traits<char> >
+52    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::pbackfail<char, std::char_traits<char> >
+56    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::xsputn<char, std::char_traits<char> >
+60    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::overflow<char, std::char_traits<char> >
+
+Class std::basic_streambuf<char>
+   size=32 align=4
+   base size=32 base align=4
+std::basic_streambuf<char> (0x0xb6a83700) 0
+    vptr=((& std::basic_streambuf<char>::_ZTVSt15basic_streambufIcSt11char_traitsIcEE) + 8u)
+
+Vtable for std::basic_streambuf<wchar_t>
+std::basic_streambuf<wchar_t>::_ZTVSt15basic_streambufIwSt11char_traitsIwEE: 16u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt15basic_streambufIwSt11char_traitsIwEE)
+8     (int (*)(...))std::basic_streambuf<_CharT, _Traits>::~basic_streambuf<wchar_t, std::char_traits<wchar_t> >
+12    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::~basic_streambuf<wchar_t, std::char_traits<wchar_t> >
+16    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::imbue<wchar_t, std::char_traits<wchar_t> >
+20    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::setbuf<wchar_t, std::char_traits<wchar_t> >
+24    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::seekoff<wchar_t, std::char_traits<wchar_t> >
+28    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::seekpos<wchar_t, std::char_traits<wchar_t> >
+32    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::sync<wchar_t, std::char_traits<wchar_t> >
+36    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::showmanyc<wchar_t, std::char_traits<wchar_t> >
+40    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::xsgetn<wchar_t, std::char_traits<wchar_t> >
+44    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::underflow<wchar_t, std::char_traits<wchar_t> >
+48    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::uflow<wchar_t, std::char_traits<wchar_t> >
+52    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::pbackfail<wchar_t, std::char_traits<wchar_t> >
+56    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::xsputn<wchar_t, std::char_traits<wchar_t> >
+60    (int (*)(...))std::basic_streambuf<_CharT, _Traits>::overflow<wchar_t, std::char_traits<wchar_t> >
+
+Class std::basic_streambuf<wchar_t>
+   size=32 align=4
+   base size=32 base align=4
+std::basic_streambuf<wchar_t> (0x0xb6a837e0) 0
+    vptr=((& std::basic_streambuf<wchar_t>::_ZTVSt15basic_streambufIwSt11char_traitsIwEE) + 8u)
+
+Class std::ctype_base
+   size=1 align=1
+   base size=0 base align=1
+std::ctype_base (0x0xb6a83ce8) 0 empty
+
+Vtable for std::ctype<char>
+std::ctype<char>::_ZTVSt5ctypeIcE: 12u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt5ctypeIcE)
+8     (int (*)(...))std::ctype<char>::~ctype
+12    (int (*)(...))std::ctype<char>::~ctype
+16    (int (*)(...))std::ctype<char>::do_toupper
+20    (int (*)(...))std::ctype<char>::do_toupper
+24    (int (*)(...))std::ctype<char>::do_tolower
+28    (int (*)(...))std::ctype<char>::do_tolower
+32    (int (*)(...))std::ctype<char>::do_widen
+36    (int (*)(...))std::ctype<char>::do_widen
+40    (int (*)(...))std::ctype<char>::do_narrow
+44    (int (*)(...))std::ctype<char>::do_narrow
+
+Class std::ctype<char>
+   size=544 align=4
+   base size=542 base align=4
+std::ctype<char> (0x0xb6854cc0) 0
+    vptr=((& std::ctype<char>::_ZTVSt5ctypeIcE) + 8u)
+  std::locale::facet (0x0xb689b188) 0
+      primary-for std::ctype<char> (0x0xb6854cc0)
+  std::ctype_base (0x0xb689b1c0) 0 empty
+
+Vtable for std::__ctype_abstract_base<wchar_t>
+std::__ctype_abstract_base<wchar_t>::_ZTVSt21__ctype_abstract_baseIwE: 16u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt21__ctype_abstract_baseIwE)
+8     (int (*)(...))std::__ctype_abstract_base<_CharT>::~__ctype_abstract_base<wchar_t>
+12    (int (*)(...))std::__ctype_abstract_base<_CharT>::~__ctype_abstract_base<wchar_t>
+16    (int (*)(...))__cxa_pure_virtual
+20    (int (*)(...))__cxa_pure_virtual
+24    (int (*)(...))__cxa_pure_virtual
+28    (int (*)(...))__cxa_pure_virtual
+32    (int (*)(...))__cxa_pure_virtual
+36    (int (*)(...))__cxa_pure_virtual
+40    (int (*)(...))__cxa_pure_virtual
+44    (int (*)(...))__cxa_pure_virtual
+48    (int (*)(...))__cxa_pure_virtual
+52    (int (*)(...))__cxa_pure_virtual
+56    (int (*)(...))__cxa_pure_virtual
+60    (int (*)(...))__cxa_pure_virtual
+
+Class std::__ctype_abstract_base<wchar_t>
+   size=8 align=4
+   base size=8 base align=4
+std::__ctype_abstract_base<wchar_t> (0x0xb68ce3c0) 0
+    vptr=((& std::__ctype_abstract_base<wchar_t>::_ZTVSt21__ctype_abstract_baseIwE) + 8u)
+  std::locale::facet (0x0xb689b230) 0
+      primary-for std::__ctype_abstract_base<wchar_t> (0x0xb68ce3c0)
+  std::ctype_base (0x0xb689b268) 0 empty
+
+Vtable for std::ctype<wchar_t>
+std::ctype<wchar_t>::_ZTVSt5ctypeIwE: 16u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt5ctypeIwE)
+8     (int (*)(...))std::ctype<wchar_t>::~ctype
+12    (int (*)(...))std::ctype<wchar_t>::~ctype
+16    (int (*)(...))std::ctype<wchar_t>::do_is
+20    (int (*)(...))std::ctype<wchar_t>::do_is
+24    (int (*)(...))std::ctype<wchar_t>::do_scan_is
+28    (int (*)(...))std::ctype<wchar_t>::do_scan_not
+32    (int (*)(...))std::ctype<wchar_t>::do_toupper
+36    (int (*)(...))std::ctype<wchar_t>::do_toupper
+40    (int (*)(...))std::ctype<wchar_t>::do_tolower
+44    (int (*)(...))std::ctype<wchar_t>::do_tolower
+48    (int (*)(...))std::ctype<wchar_t>::do_widen
+52    (int (*)(...))std::ctype<wchar_t>::do_widen
+56    (int (*)(...))std::ctype<wchar_t>::do_narrow
+60    (int (*)(...))std::ctype<wchar_t>::do_narrow
+
+Class std::ctype<wchar_t>
+   size=1264 align=4
+   base size=1264 base align=4
+std::ctype<wchar_t> (0x0xb68aae10) 0
+    vptr=((& std::ctype<wchar_t>::_ZTVSt5ctypeIwE) + 8u)
+  std::__ctype_abstract_base<wchar_t> (0x0xb68ce400) 0
+      primary-for std::ctype<wchar_t> (0x0xb68aae10)
+    std::locale::facet (0x0xb689b2a0) 0
+        primary-for std::__ctype_abstract_base<wchar_t> (0x0xb68ce400)
+    std::ctype_base (0x0xb689b2d8) 0 empty
+
+Vtable for std::ctype_byname<char>
+std::ctype_byname<char>::_ZTVSt12ctype_bynameIcE: 12u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt12ctype_bynameIcE)
+8     (int (*)(...))std::ctype_byname<char>::~ctype_byname
+12    (int (*)(...))std::ctype_byname<char>::~ctype_byname
+16    (int (*)(...))std::ctype<char>::do_toupper
+20    (int (*)(...))std::ctype<char>::do_toupper
+24    (int (*)(...))std::ctype<char>::do_tolower
+28    (int (*)(...))std::ctype<char>::do_tolower
+32    (int (*)(...))std::ctype<char>::do_widen
+36    (int (*)(...))std::ctype<char>::do_widen
+40    (int (*)(...))std::ctype<char>::do_narrow
+44    (int (*)(...))std::ctype<char>::do_narrow
+
+Class std::ctype_byname<char>
+   size=544 align=4
+   base size=542 base align=4
+std::ctype_byname<char> (0x0xb68e7000) 0
+    vptr=((& std::ctype_byname<char>::_ZTVSt12ctype_bynameIcE) + 8u)
+  std::ctype<char> (0x0xb68ce480) 0
+      primary-for std::ctype_byname<char> (0x0xb68e7000)
+    std::locale::facet (0x0xb689b380) 0
+        primary-for std::ctype<char> (0x0xb68ce480)
+    std::ctype_base (0x0xb689b3b8) 0 empty
+
+Vtable for std::ctype_byname<wchar_t>
+std::ctype_byname<wchar_t>::_ZTVSt12ctype_bynameIwE: 16u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt12ctype_bynameIwE)
+8     (int (*)(...))std::ctype_byname<wchar_t>::~ctype_byname
+12    (int (*)(...))std::ctype_byname<wchar_t>::~ctype_byname
+16    (int (*)(...))std::ctype<wchar_t>::do_is
+20    (int (*)(...))std::ctype<wchar_t>::do_is
+24    (int (*)(...))std::ctype<wchar_t>::do_scan_is
+28    (int (*)(...))std::ctype<wchar_t>::do_scan_not
+32    (int (*)(...))std::ctype<wchar_t>::do_toupper
+36    (int (*)(...))std::ctype<wchar_t>::do_toupper
+40    (int (*)(...))std::ctype<wchar_t>::do_tolower
+44    (int (*)(...))std::ctype<wchar_t>::do_tolower
+48    (int (*)(...))std::ctype<wchar_t>::do_widen
+52    (int (*)(...))std::ctype<wchar_t>::do_widen
+56    (int (*)(...))std::ctype<wchar_t>::do_narrow
+60    (int (*)(...))std::ctype<wchar_t>::do_narrow
+
+Class std::ctype_byname<wchar_t>
+   size=1264 align=4
+   base size=1264 base align=4
+std::ctype_byname<wchar_t> (0x0xb68e70b4) 0
+    vptr=((& std::ctype_byname<wchar_t>::_ZTVSt12ctype_bynameIwE) + 8u)
+  std::ctype<wchar_t> (0x0xb68e70f0) 0
+      primary-for std::ctype_byname<wchar_t> (0x0xb68e70b4)
+    std::__ctype_abstract_base<wchar_t> (0x0xb68ce4c0) 0
+        primary-for std::ctype<wchar_t> (0x0xb68e70f0)
+      std::locale::facet (0x0xb689b3f0) 0
+          primary-for std::__ctype_abstract_base<wchar_t> (0x0xb68ce4c0)
+      std::ctype_base (0x0xb689b428) 0 empty
+
+Class std::__num_base
+   size=1 align=1
+   base size=0 base align=1
+std::__num_base (0x0xb689b460) 0 empty
+
+Vtable for std::numpunct<char>
+std::numpunct<char>::_ZTVSt8numpunctIcE: 9u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt8numpunctIcE)
+8     (int (*)(...))std::numpunct<_CharT>::~numpunct<char>
+12    (int (*)(...))std::numpunct<_CharT>::~numpunct<char>
+16    (int (*)(...))std::numpunct<_CharT>::do_decimal_point<char>
+20    (int (*)(...))std::numpunct<_CharT>::do_thousands_sep<char>
+24    (int (*)(...))std::numpunct<_CharT>::do_grouping<char>
+28    (int (*)(...))std::numpunct<_CharT>::do_truename<char>
+32    (int (*)(...))std::numpunct<_CharT>::do_falsename<char>
+
+Class std::numpunct<char>
+   size=12 align=4
+   base size=12 base align=4
+std::numpunct<char> (0x0xb68e7a8c) 0
+    vptr=((& std::numpunct<char>::_ZTVSt8numpunctIcE) + 8u)
+  std::locale::facet (0x0xb689b5e8) 0
+      primary-for std::numpunct<char> (0x0xb68e7a8c)
+
+Vtable for std::numpunct<wchar_t>
+std::numpunct<wchar_t>::_ZTVSt8numpunctIwE: 9u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt8numpunctIwE)
+8     (int (*)(...))std::numpunct<_CharT>::~numpunct<wchar_t>
+12    (int (*)(...))std::numpunct<_CharT>::~numpunct<wchar_t>
+16    (int (*)(...))std::numpunct<_CharT>::do_decimal_point<wchar_t>
+20    (int (*)(...))std::numpunct<_CharT>::do_thousands_sep<wchar_t>
+24    (int (*)(...))std::numpunct<_CharT>::do_grouping<wchar_t>
+28    (int (*)(...))std::numpunct<_CharT>::do_truename<wchar_t>
+32    (int (*)(...))std::numpunct<_CharT>::do_falsename<wchar_t>
+
+Class std::numpunct<wchar_t>
+   size=12 align=4
+   base size=12 base align=4
+std::numpunct<wchar_t> (0x0xb68e7bb8) 0
+    vptr=((& std::numpunct<wchar_t>::_ZTVSt8numpunctIwE) + 8u)
+  std::locale::facet (0x0xb689b620) 0
+      primary-for std::numpunct<wchar_t> (0x0xb68e7bb8)
+
+Class __gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<char>, __gnu_cxx::__numeric_traits_floating<char> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<char>, __gnu_cxx::__numeric_traits_floating<char> > (0x0xb689b850) 0 empty
+
+Class __gnu_cxx::__numeric_traits_integer<char>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_integer<char> (0x0xb689b888) 0 empty
+
+Class __gnu_cxx::__numeric_traits<char>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<char> (0x0xb692e834) 0 empty
+  __gnu_cxx::__numeric_traits_integer<char> (0x0xb689b8c0) 0 empty
+
+Class __gnu_cxx::__conditional_type<true, long unsigned int, long long unsigned int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, long unsigned int, long long unsigned int> (0x0xb689b9a0) 0 empty
+
+Vtable for std::numpunct_byname<char>
+std::numpunct_byname<char>::_ZTVSt15numpunct_bynameIcE: 9u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt15numpunct_bynameIcE)
+8     (int (*)(...))std::numpunct_byname<_CharT>::~numpunct_byname<char>
+12    (int (*)(...))std::numpunct_byname<_CharT>::~numpunct_byname<char>
+16    (int (*)(...))std::numpunct<_CharT>::do_decimal_point<char>
+20    (int (*)(...))std::numpunct<_CharT>::do_thousands_sep<char>
+24    (int (*)(...))std::numpunct<_CharT>::do_grouping<char>
+28    (int (*)(...))std::numpunct<_CharT>::do_truename<char>
+32    (int (*)(...))std::numpunct<_CharT>::do_falsename<char>
+
+Class std::numpunct_byname<char>
+   size=12 align=4
+   base size=12 base align=4
+std::numpunct_byname<char> (0x0xb6962d5c) 0
+    vptr=((& std::numpunct_byname<char>::_ZTVSt15numpunct_bynameIcE) + 8u)
+  std::numpunct<char> (0x0xb6962d98) 0
+      primary-for std::numpunct_byname<char> (0x0xb6962d5c)
+    std::locale::facet (0x0xb689bb28) 0
+        primary-for std::numpunct<char> (0x0xb6962d98)
+
+Vtable for std::num_get<char>
+std::num_get<char>::_ZTVSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE: 15u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE)
+8     (int (*)(...))std::num_get<_CharT, _InIter>::~num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+12    (int (*)(...))std::num_get<_CharT, _InIter>::~num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+16    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+20    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+24    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+28    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+32    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+36    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+40    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+44    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+48    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+52    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+56    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+
+Class std::num_get<char>
+   size=8 align=4
+   base size=8 base align=4
+std::num_get<char> (0x0xb6962dd4) 0
+    vptr=((& std::num_get<char>::_ZTVSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE) + 8u)
+  std::locale::facet (0x0xb689bb60) 0
+      primary-for std::num_get<char> (0x0xb6962dd4)
+
+Vtable for std::num_put<char>
+std::num_put<char>::_ZTVSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE: 12u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE)
+8     (int (*)(...))std::num_put<_CharT, _OutIter>::~num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+12    (int (*)(...))std::num_put<_CharT, _OutIter>::~num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+16    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+20    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+24    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+28    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+32    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+36    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+40    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+44    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+
+Class std::num_put<char>
+   size=8 align=4
+   base size=8 base align=4
+std::num_put<char> (0x0xb6962e4c) 0
+    vptr=((& std::num_put<char>::_ZTVSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE) + 8u)
+  std::locale::facet (0x0xb689bb98) 0
+      primary-for std::num_put<char> (0x0xb6962e4c)
+
+Vtable for std::numpunct_byname<wchar_t>
+std::numpunct_byname<wchar_t>::_ZTVSt15numpunct_bynameIwE: 9u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt15numpunct_bynameIwE)
+8     (int (*)(...))std::numpunct_byname<_CharT>::~numpunct_byname<wchar_t>
+12    (int (*)(...))std::numpunct_byname<_CharT>::~numpunct_byname<wchar_t>
+16    (int (*)(...))std::numpunct<_CharT>::do_decimal_point<wchar_t>
+20    (int (*)(...))std::numpunct<_CharT>::do_thousands_sep<wchar_t>
+24    (int (*)(...))std::numpunct<_CharT>::do_grouping<wchar_t>
+28    (int (*)(...))std::numpunct<_CharT>::do_truename<wchar_t>
+32    (int (*)(...))std::numpunct<_CharT>::do_falsename<wchar_t>
+
+Class std::numpunct_byname<wchar_t>
+   size=12 align=4
+   base size=12 base align=4
+std::numpunct_byname<wchar_t> (0x0xb6962f00) 0
+    vptr=((& std::numpunct_byname<wchar_t>::_ZTVSt15numpunct_bynameIwE) + 8u)
+  std::numpunct<wchar_t> (0x0xb6962f3c) 0
+      primary-for std::numpunct_byname<wchar_t> (0x0xb6962f00)
+    std::locale::facet (0x0xb689bbd0) 0
+        primary-for std::numpunct<wchar_t> (0x0xb6962f3c)
+
+Vtable for std::num_get<wchar_t>
+std::num_get<wchar_t>::_ZTVSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE: 15u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE)
+8     (int (*)(...))std::num_get<_CharT, _InIter>::~num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+12    (int (*)(...))std::num_get<_CharT, _InIter>::~num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+16    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+20    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+24    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+28    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+32    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+36    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+40    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+44    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+48    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+52    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+56    (int (*)(...))std::num_get<_CharT, _InIter>::do_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+
+Class std::num_get<wchar_t>
+   size=8 align=4
+   base size=8 base align=4
+std::num_get<wchar_t> (0x0xb6962f78) 0
+    vptr=((& std::num_get<wchar_t>::_ZTVSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE) + 8u)
+  std::locale::facet (0x0xb689bc08) 0
+      primary-for std::num_get<wchar_t> (0x0xb6962f78)
+
+Vtable for std::num_put<wchar_t>
+std::num_put<wchar_t>::_ZTVSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE: 12u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE)
+8     (int (*)(...))std::num_put<_CharT, _OutIter>::~num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+12    (int (*)(...))std::num_put<_CharT, _OutIter>::~num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+16    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+20    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+24    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+28    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+32    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+36    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+40    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+44    (int (*)(...))std::num_put<_CharT, _OutIter>::do_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+
+Class std::num_put<wchar_t>
+   size=8 align=4
+   base size=8 base align=4
+std::num_put<wchar_t> (0x0xb65a5000) 0
+    vptr=((& std::num_put<wchar_t>::_ZTVSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE) + 8u)
+  std::locale::facet (0x0xb689bc40) 0
+      primary-for std::num_put<wchar_t> (0x0xb65a5000)
+
+Vtable for std::basic_ios<char>
+std::basic_ios<char>::_ZTVSt9basic_iosIcSt11char_traitsIcEE: 4u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt9basic_iosIcSt11char_traitsIcEE)
+8     (int (*)(...))std::basic_ios<_CharT, _Traits>::~basic_ios<char, std::char_traits<char> >
+12    (int (*)(...))std::basic_ios<_CharT, _Traits>::~basic_ios<char, std::char_traits<char> >
+
+Class std::basic_ios<char>
+   size=136 align=4
+   base size=136 base align=4
+std::basic_ios<char> (0x0xb65a5f3c) 0
+    vptr=((& std::basic_ios<char>::_ZTVSt9basic_iosIcSt11char_traitsIcEE) + 8u)
+  std::ios_base (0x0xb689bdc8) 0
+      primary-for std::basic_ios<char> (0x0xb65a5f3c)
+
+Vtable for std::basic_ios<wchar_t>
+std::basic_ios<wchar_t>::_ZTVSt9basic_iosIwSt11char_traitsIwEE: 4u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTISt9basic_iosIwSt11char_traitsIwEE)
+8     (int (*)(...))std::basic_ios<_CharT, _Traits>::~basic_ios<wchar_t, std::char_traits<wchar_t> >
+12    (int (*)(...))std::basic_ios<_CharT, _Traits>::~basic_ios<wchar_t, std::char_traits<wchar_t> >
+
+Class std::basic_ios<wchar_t>
+   size=140 align=4
+   base size=140 base align=4
+std::basic_ios<wchar_t> (0x0xb65a5f78) 0
+    vptr=((& std::basic_ios<wchar_t>::_ZTVSt9basic_iosIwSt11char_traitsIwEE) + 8u)
+  std::ios_base (0x0xb689be38) 0
+      primary-for std::basic_ios<wchar_t> (0x0xb65a5f78)
+
+Vtable for std::basic_ostream<char>
+std::basic_ostream<char>::_ZTVSo: 10u entries
+0     4u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTISo)
+12    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<char, std::char_traits<char> >
+16    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<char, std::char_traits<char> >
+20    4294967292u
+24    (int (*)(...))-4
+28    (int (*)(...))(& _ZTISo)
+32    (int (*)(...))std::basic_ostream<char>::_ZTv0_n12_NSoD1Ev
+36    (int (*)(...))std::basic_ostream<char>::_ZTv0_n12_NSoD0Ev
+
+VTT for std::basic_ostream<char>
+std::basic_ostream<char>::_ZTTSo: 2u entries
+0     ((& std::basic_ostream<char>::_ZTVSo) + 12u)
+4     ((& std::basic_ostream<char>::_ZTVSo) + 32u)
+
+Class std::basic_ostream<char>
+   size=140 align=4
+   base size=4 base align=4
+std::basic_ostream<char> (0x0xb65f9a14) 0 nearly-empty
+    vptridx=0u vptr=((& std::basic_ostream<char>::_ZTVSo) + 12u)
+  std::basic_ios<char> (0x0xb65f9a50) 4 virtual
+      vptridx=4u vbaseoffset=-12 vptr=((& std::basic_ostream<char>::_ZTVSo) + 32u)
+    std::ios_base (0x0xb65f70e0) 4
+        primary-for std::basic_ios<char> (0x0xb65f9a50)
+
+Class std::basic_ostream<char>::sentry
+   size=8 align=4
+   base size=8 base align=4
+std::basic_ostream<char>::sentry (0x0xb65f7188) 0
+
+Vtable for std::basic_ostream<wchar_t>
+std::basic_ostream<wchar_t>::_ZTVSt13basic_ostreamIwSt11char_traitsIwEE: 10u entries
+0     4u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt13basic_ostreamIwSt11char_traitsIwEE)
+12    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<wchar_t, std::char_traits<wchar_t> >
+16    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<wchar_t, std::char_traits<wchar_t> >
+20    4294967292u
+24    (int (*)(...))-4
+28    (int (*)(...))(& _ZTISt13basic_ostreamIwSt11char_traitsIwEE)
+32    (int (*)(...))std::basic_ostream<wchar_t>::_ZTv0_n12_NSt13basic_ostreamIwSt11char_traitsIwEED1Ev
+36    (int (*)(...))std::basic_ostream<wchar_t>::_ZTv0_n12_NSt13basic_ostreamIwSt11char_traitsIwEED0Ev
+
+VTT for std::basic_ostream<wchar_t>
+std::basic_ostream<wchar_t>::_ZTTSt13basic_ostreamIwSt11char_traitsIwEE: 2u entries
+0     ((& std::basic_ostream<wchar_t>::_ZTVSt13basic_ostreamIwSt11char_traitsIwEE) + 12u)
+4     ((& std::basic_ostream<wchar_t>::_ZTVSt13basic_ostreamIwSt11char_traitsIwEE) + 32u)
+
+Class std::basic_ostream<wchar_t>
+   size=144 align=4
+   base size=4 base align=4
+std::basic_ostream<wchar_t> (0x0xb65f9d20) 0 nearly-empty
+    vptridx=0u vptr=((& std::basic_ostream<wchar_t>::_ZTVSt13basic_ostreamIwSt11char_traitsIwEE) + 12u)
+  std::basic_ios<wchar_t> (0x0xb65f9d5c) 4 virtual
+      vptridx=4u vbaseoffset=-12 vptr=((& std::basic_ostream<wchar_t>::_ZTVSt13basic_ostreamIwSt11char_traitsIwEE) + 32u)
+    std::ios_base (0x0xb65f71c0) 4
+        primary-for std::basic_ios<wchar_t> (0x0xb65f9d5c)
+
+Class std::basic_ostream<wchar_t>::sentry
+   size=8 align=4
+   base size=8 base align=4
+std::basic_ostream<wchar_t>::sentry (0x0xb65f72d8) 0
+
+Vtable for std::basic_istream<char>
+std::basic_istream<char>::_ZTVSi: 10u entries
+0     8u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTISi)
+12    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<char, std::char_traits<char> >
+16    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<char, std::char_traits<char> >
+20    4294967288u
+24    (int (*)(...))-8
+28    (int (*)(...))(& _ZTISi)
+32    (int (*)(...))std::basic_istream<char>::_ZTv0_n12_NSiD1Ev
+36    (int (*)(...))std::basic_istream<char>::_ZTv0_n12_NSiD0Ev
+
+VTT for std::basic_istream<char>
+std::basic_istream<char>::_ZTTSi: 2u entries
+0     ((& std::basic_istream<char>::_ZTVSi) + 12u)
+4     ((& std::basic_istream<char>::_ZTVSi) + 32u)
+
+Class std::basic_istream<char>
+   size=144 align=4
+   base size=8 base align=4
+std::basic_istream<char> (0x0xb66307f8) 0
+    vptridx=0u vptr=((& std::basic_istream<char>::_ZTVSi) + 12u)
+  std::basic_ios<char> (0x0xb6630834) 8 virtual
+      vptridx=4u vbaseoffset=-12 vptr=((& std::basic_istream<char>::_ZTVSi) + 32u)
+    std::ios_base (0x0xb65f7380) 8
+        primary-for std::basic_ios<char> (0x0xb6630834)
+
+Vtable for std::basic_istream<wchar_t>
+std::basic_istream<wchar_t>::_ZTVSt13basic_istreamIwSt11char_traitsIwEE: 10u entries
+0     8u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt13basic_istreamIwSt11char_traitsIwEE)
+12    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<wchar_t, std::char_traits<wchar_t> >
+16    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<wchar_t, std::char_traits<wchar_t> >
+20    4294967288u
+24    (int (*)(...))-8
+28    (int (*)(...))(& _ZTISt13basic_istreamIwSt11char_traitsIwEE)
+32    (int (*)(...))std::basic_istream<wchar_t>::_ZTv0_n12_NSt13basic_istreamIwSt11char_traitsIwEED1Ev
+36    (int (*)(...))std::basic_istream<wchar_t>::_ZTv0_n12_NSt13basic_istreamIwSt11char_traitsIwEED0Ev
+
+VTT for std::basic_istream<wchar_t>
+std::basic_istream<wchar_t>::_ZTTSt13basic_istreamIwSt11char_traitsIwEE: 2u entries
+0     ((& std::basic_istream<wchar_t>::_ZTVSt13basic_istreamIwSt11char_traitsIwEE) + 12u)
+4     ((& std::basic_istream<wchar_t>::_ZTVSt13basic_istreamIwSt11char_traitsIwEE) + 32u)
+
+Class std::basic_istream<wchar_t>
+   size=148 align=4
+   base size=8 base align=4
+std::basic_istream<wchar_t> (0x0xb663099c) 0
+    vptridx=0u vptr=((& std::basic_istream<wchar_t>::_ZTVSt13basic_istreamIwSt11char_traitsIwEE) + 12u)
+  std::basic_ios<wchar_t> (0x0xb66309d8) 8 virtual
+      vptridx=4u vbaseoffset=-12 vptr=((& std::basic_istream<wchar_t>::_ZTVSt13basic_istreamIwSt11char_traitsIwEE) + 32u)
+    std::ios_base (0x0xb65f7428) 8
+        primary-for std::basic_ios<wchar_t> (0x0xb66309d8)
+
+Class __gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<short int>, __gnu_cxx::__numeric_traits_floating<short int> >
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__conditional_type<true, __gnu_cxx::__numeric_traits_integer<short int>, __gnu_cxx::__numeric_traits_floating<short int> > (0x0xb65f76c8) 0 empty
+
+Class __gnu_cxx::__numeric_traits_integer<short int>
+   size=1 align=1
+   base size=0 base align=1
+__gnu_cxx::__numeric_traits_integer<short int> (0x0xb65f7700) 0 empty
+
+Class __gnu_cxx::__numeric_traits<short int>
+   size=1 align=1
+   base size=1 base align=1
+__gnu_cxx::__numeric_traits<short int> (0x0xb666a924) 0 empty
+  __gnu_cxx::__numeric_traits_integer<short int> (0x0xb65f7738) 0 empty
+
+Class std::basic_istream<char>::sentry
+   size=1 align=1
+   base size=1 base align=1
+std::basic_istream<char>::sentry (0x0xb65f7c78) 0
+
+Vtable for std::basic_iostream<char>
+std::basic_iostream<char>::_ZTVSd: 15u entries
+0     12u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTISd)
+12    (int (*)(...))std::basic_iostream<_CharT, _Traits>::~basic_iostream<char, std::char_traits<char> >
+16    (int (*)(...))std::basic_iostream<_CharT, _Traits>::~basic_iostream<char, std::char_traits<char> >
+20    4u
+24    (int (*)(...))-8
+28    (int (*)(...))(& _ZTISd)
+32    (int (*)(...))std::basic_iostream<char>::_ZThn8_NSdD1Ev
+36    (int (*)(...))std::basic_iostream<char>::_ZThn8_NSdD0Ev
+40    4294967284u
+44    (int (*)(...))-12
+48    (int (*)(...))(& _ZTISd)
+52    (int (*)(...))std::basic_iostream<char>::_ZTv0_n12_NSdD1Ev
+56    (int (*)(...))std::basic_iostream<char>::_ZTv0_n12_NSdD0Ev
+
+Construction vtable for std::basic_istream<char> (0x0xb669b924 instance) in std::basic_iostream<char>
+std::basic_iostream<char>::_ZTCSd0_Si: 10u entries
+0     12u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTISi)
+12    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<char, std::char_traits<char> >
+16    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<char, std::char_traits<char> >
+20    4294967284u
+24    (int (*)(...))-12
+28    (int (*)(...))(& _ZTISi)
+32    (int (*)(...))std::basic_istream<char>::_ZTv0_n12_NSiD1Ev
+36    (int (*)(...))std::basic_istream<char>::_ZTv0_n12_NSiD0Ev
+
+Construction vtable for std::basic_ostream<char> (0x0xb669b99c instance) in std::basic_iostream<char>
+std::basic_iostream<char>::_ZTCSd8_So: 10u entries
+0     4u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTISo)
+12    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<char, std::char_traits<char> >
+16    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<char, std::char_traits<char> >
+20    4294967292u
+24    (int (*)(...))-4
+28    (int (*)(...))(& _ZTISo)
+32    (int (*)(...))std::basic_ostream<char>::_ZTv0_n12_NSoD1Ev
+36    (int (*)(...))std::basic_ostream<char>::_ZTv0_n12_NSoD0Ev
+
+VTT for std::basic_iostream<char>
+std::basic_iostream<char>::_ZTTSd: 7u entries
+0     ((& std::basic_iostream<char>::_ZTVSd) + 12u)
+4     ((& std::basic_iostream<char>::_ZTCSd0_Si) + 12u)
+8     ((& std::basic_iostream<char>::_ZTCSd0_Si) + 32u)
+12    ((& std::basic_iostream<char>::_ZTCSd8_So) + 12u)
+16    ((& std::basic_iostream<char>::_ZTCSd8_So) + 32u)
+20    ((& std::basic_iostream<char>::_ZTVSd) + 52u)
+24    ((& std::basic_iostream<char>::_ZTVSd) + 32u)
+
+Class std::basic_iostream<char>
+   size=148 align=4
+   base size=12 base align=4
+std::basic_iostream<char> (0x0xb65fef80) 0
+    vptridx=0u vptr=((& std::basic_iostream<char>::_ZTVSd) + 12u)
+  std::basic_istream<char> (0x0xb669b924) 0
+      primary-for std::basic_iostream<char> (0x0xb65fef80)
+      subvttidx=4u
+    std::basic_ios<char> (0x0xb669b960) 12 virtual
+        vptridx=20u vbaseoffset=-12 vptr=((& std::basic_iostream<char>::_ZTVSd) + 52u)
+      std::ios_base (0x0xb65f7ce8) 12
+          primary-for std::basic_ios<char> (0x0xb669b960)
+  std::basic_ostream<char> (0x0xb669b99c) 8 nearly-empty
+      subvttidx=12u vptridx=24u vptr=((& std::basic_iostream<char>::_ZTVSd) + 32u)
+    std::basic_ios<char> (0x0xb669b960) alternative-path
+
+Class std::basic_istream<wchar_t>::sentry
+   size=1 align=1
+   base size=1 base align=1
+std::basic_istream<wchar_t>::sentry (0x0xb65f7e00) 0
+
+Vtable for std::basic_iostream<wchar_t>
+std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE: 15u entries
+0     12u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt14basic_iostreamIwSt11char_traitsIwEE)
+12    (int (*)(...))std::basic_iostream<_CharT, _Traits>::~basic_iostream<wchar_t, std::char_traits<wchar_t> >
+16    (int (*)(...))std::basic_iostream<_CharT, _Traits>::~basic_iostream<wchar_t, std::char_traits<wchar_t> >
+20    4u
+24    (int (*)(...))-8
+28    (int (*)(...))(& _ZTISt14basic_iostreamIwSt11char_traitsIwEE)
+32    (int (*)(...))std::basic_iostream<wchar_t>::_ZThn8_NSt14basic_iostreamIwSt11char_traitsIwEED1Ev
+36    (int (*)(...))std::basic_iostream<wchar_t>::_ZThn8_NSt14basic_iostreamIwSt11char_traitsIwEED0Ev
+40    4294967284u
+44    (int (*)(...))-12
+48    (int (*)(...))(& _ZTISt14basic_iostreamIwSt11char_traitsIwEE)
+52    (int (*)(...))std::basic_iostream<wchar_t>::_ZTv0_n12_NSt14basic_iostreamIwSt11char_traitsIwEED1Ev
+56    (int (*)(...))std::basic_iostream<wchar_t>::_ZTv0_n12_NSt14basic_iostreamIwSt11char_traitsIwEED0Ev
+
+Construction vtable for std::basic_istream<wchar_t> (0x0xb669bd5c instance) in std::basic_iostream<wchar_t>
+std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE0_St13basic_istreamIwS1_E: 10u entries
+0     12u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt13basic_istreamIwSt11char_traitsIwEE)
+12    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<wchar_t, std::char_traits<wchar_t> >
+16    (int (*)(...))std::basic_istream<_CharT, _Traits>::~basic_istream<wchar_t, std::char_traits<wchar_t> >
+20    4294967284u
+24    (int (*)(...))-12
+28    (int (*)(...))(& _ZTISt13basic_istreamIwSt11char_traitsIwEE)
+32    (int (*)(...))std::basic_istream<wchar_t>::_ZTv0_n12_NSt13basic_istreamIwSt11char_traitsIwEED1Ev
+36    (int (*)(...))std::basic_istream<wchar_t>::_ZTv0_n12_NSt13basic_istreamIwSt11char_traitsIwEED0Ev
+
+Construction vtable for std::basic_ostream<wchar_t> (0x0xb669bdd4 instance) in std::basic_iostream<wchar_t>
+std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE8_St13basic_ostreamIwS1_E: 10u entries
+0     4u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTISt13basic_ostreamIwSt11char_traitsIwEE)
+12    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<wchar_t, std::char_traits<wchar_t> >
+16    (int (*)(...))std::basic_ostream<_CharT, _Traits>::~basic_ostream<wchar_t, std::char_traits<wchar_t> >
+20    4294967292u
+24    (int (*)(...))-4
+28    (int (*)(...))(& _ZTISt13basic_ostreamIwSt11char_traitsIwEE)
+32    (int (*)(...))std::basic_ostream<wchar_t>::_ZTv0_n12_NSt13basic_ostreamIwSt11char_traitsIwEED1Ev
+36    (int (*)(...))std::basic_ostream<wchar_t>::_ZTv0_n12_NSt13basic_ostreamIwSt11char_traitsIwEED0Ev
+
+VTT for std::basic_iostream<wchar_t>
+std::basic_iostream<wchar_t>::_ZTTSt14basic_iostreamIwSt11char_traitsIwEE: 7u entries
+0     ((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 12u)
+4     ((& std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE0_St13basic_istreamIwS1_E) + 12u)
+8     ((& std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE0_St13basic_istreamIwS1_E) + 32u)
+12    ((& std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE8_St13basic_ostreamIwS1_E) + 12u)
+16    ((& std::basic_iostream<wchar_t>::_ZTCSt14basic_iostreamIwSt11char_traitsIwEE8_St13basic_ostreamIwS1_E) + 32u)
+20    ((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 52u)
+24    ((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 32u)
+
+Class std::basic_iostream<wchar_t>
+   size=152 align=4
+   base size=12 base align=4
+std::basic_iostream<wchar_t> (0x0xb65fefc0) 0
+    vptridx=0u vptr=((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 12u)
+  std::basic_istream<wchar_t> (0x0xb669bd5c) 0
+      primary-for std::basic_iostream<wchar_t> (0x0xb65fefc0)
+      subvttidx=4u
+    std::basic_ios<wchar_t> (0x0xb669bd98) 12 virtual
+        vptridx=20u vbaseoffset=-12 vptr=((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 52u)
+      std::ios_base (0x0xb65f7e70) 12
+          primary-for std::basic_ios<wchar_t> (0x0xb669bd98)
+  std::basic_ostream<wchar_t> (0x0xb669bdd4) 8 nearly-empty
+      subvttidx=12u vptridx=24u vptr=((& std::basic_iostream<wchar_t>::_ZTVSt14basic_iostreamIwSt11char_traitsIwEE) + 32u)
+    std::basic_ios<wchar_t> (0x0xb669bd98) alternative-path
+
+Vtable for Base1
+Base1::_ZTV5Base1: 7u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI5Base1)
+8     (int (*)(...))Base1::getWadapav
+12    (int (*)(...))Base1::getShira
+16    (int (*)(...))Base1::getPoha
+20    (int (*)(...))Base1::getLadu
+24    (int (*)(...))Base1::getBhaji
+
+Class Base1
+   size=8 align=4
+   base size=8 base align=4
+Base1 (0x0xb65f7230) 0
+    vptr=((& Base1::_ZTV5Base1) + 8u)
+
+Vtable for Base2
+Base2::_ZTV5Base2: 6u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI5Base2)
+8     (int (*)(...))Base2::getPoha
+12    (int (*)(...))Base2::getUpma
+16    (int (*)(...))Base2::getBhaji
+20    (int (*)(...))Base2::getBurger
+
+Class Base2
+   size=8 align=4
+   base size=8 base align=4
+Base2 (0x0xb65f73f0) 0
+    vptr=((& Base2::_ZTV5Base2) + 8u)
+
+Vtable for Derived
+Derived::_ZTV7Derived: 15u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI7Derived)
+8     (int (*)(...))Derived::getWadapav
+12    (int (*)(...))Base1::getShira
+16    (int (*)(...))Derived::getPoha
+20    (int (*)(...))Base1::getLadu
+24    (int (*)(...))Base1::getBhaji
+28    (int (*)(...))Derived::getUpma
+32    (int (*)(...))Derived::getLimbuSharbat
+36    (int (*)(...))-8
+40    (int (*)(...))(& _ZTI7Derived)
+44    (int (*)(...))Derived::_ZThn8_N7Derived7getPohaEv
+48    (int (*)(...))Derived::_ZThn8_N7Derived7getUpmaEv
+52    (int (*)(...))Base2::getBhaji
+56    (int (*)(...))Base2::getBurger
+
+Class Derived
+   size=16 align=4
+   base size=16 base align=4
+Derived (0x0xb66c5000) 0
+    vptr=((& Derived::_ZTV7Derived) + 8u)
+  Base1 (0x0xb65f7498) 0
+      primary-for Derived (0x0xb66c5000)
+  Base2 (0x0xb65f7690) 8
+      vptr=((& Derived::_ZTV7Derived) + 44u)
+

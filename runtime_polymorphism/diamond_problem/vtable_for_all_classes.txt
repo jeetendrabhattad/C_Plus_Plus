@@ -1,0 +1,56 @@
+Vtable for Base
+Base::_ZTV4Base: 4u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI4Base)
+8     (int (*)(...))Base::getWadapav
+12    (int (*)(...))Base::getShira
+
+Vtable for Derived1
+Derived1::_ZTV8Derived1: 11u entries
+0     4u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTI8Derived1)
+12    (int (*)(...))Derived1::getLadu
+16    (int (*)(...))Derived1::getBhaji
+20    0u
+24    0u
+28    (int (*)(...))-0x00000000000000004
+32    (int (*)(...))(& _ZTI8Derived1)
+36    (int (*)(...))Base::getWadapav
+40    (int (*)(...))Base::getShira
+
+Vtable for Derived2
+Derived2::_ZTV8Derived2: 11u entries
+0     8u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTI8Derived2)
+12    (int (*)(...))Derived2::getWadapav
+16    (int (*)(...))Derived2::getSandwich
+20    0u
+24    4294967288u
+28    (int (*)(...))-0x00000000000000008
+32    (int (*)(...))(& _ZTI8Derived2)
+36    (int (*)(...))Derived2::_ZTv0_n12_NK8Derived210getWadapavEv
+40    (int (*)(...))Base::getShira
+
+Vtable for Child
+Child::_ZTV5Child: 18u entries
+0     12u
+4     (int (*)(...))0
+8     (int (*)(...))(& _ZTI5Child)
+12    (int (*)(...))Derived1::getLadu
+16    (int (*)(...))Derived1::getBhaji
+20    (int (*)(...))Child::getWadapav
+24    (int (*)(...))Child::getIceCream
+28    8u
+32    (int (*)(...))-0x00000000000000004
+36    (int (*)(...))(& _ZTI5Child)
+40    (int (*)(...))Child::_ZThn4_NK5Child10getWadapavEv
+44    (int (*)(...))Derived2::getSandwich
+48    0u
+52    4294967284u
+56    (int (*)(...))-0x0000000000000000c
+60    (int (*)(...))(& _ZTI5Child)
+64    (int (*)(...))Child::_ZTv0_n12_NK5Child10getWadapavEv
+68    (int (*)(...))Base::getShira
+

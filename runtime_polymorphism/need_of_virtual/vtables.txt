@@ -1,0 +1,17 @@
+Vtable for Shape
+Shape::_ZTV5Shape: 3u entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTI5Shape)
+16    (int (*)(...))Shape::Draw
+
+Class Shape
+   size=8 align=8
+      base size=8 base align=8
+      Shape (0x0x7fa2c19a4ba0) 0 nearly-empty
+          vptr=((& Shape::_ZTV5Shape) + 16u)
+
+          Class <anonymous struct>::<anonymous union>
+             size=4 align=4
+                base size=4 base align=4
+                <anonymous struct>::<anonymous union> (0x0x7fa2c19a4c60) 0
+

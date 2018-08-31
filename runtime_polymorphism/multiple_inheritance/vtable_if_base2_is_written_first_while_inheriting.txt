@@ -1,0 +1,19 @@
+Vtable for Derived
+Derived::_ZTV7Derived: 14u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI7Derived)
+8     (int (*)(...))Derived::getPoha
+12    (int (*)(...))Derived::getUpma
+16    (int (*)(...))Base2::getBhaji
+#16    (int (*)(...))Base2::getBurger
+20    (int (*)(...))Derived::getWadapav
+24    (int (*)(...))Derived::getLimbuSharbat
+28    (int (*)(...))-0x00000000000000008
+32    (int (*)(...))(& _ZTI7Derived)
+36    (int (*)(...))Derived::_ZThn8_NK7Derived10getWadapavEv
+40    (int (*)(...))Base1::getShira
+44    (int (*)(...))Derived::_ZThn8_N7Derived7getPohaEv
+48    (int (*)(...))Base1::getLadu
+52    (int (*)(...))Base1::getBhaji
+
+

@@ -1,0 +1,59 @@
+Vtable for Base1
+Base1::_ZTV5Base1: 7u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI5Base1)
+8     (int (*)(...))Base1::getWadapav
+12    (int (*)(...))Base1::getShira
+16    (int (*)(...))Base1::getPoha
+20    (int (*)(...))Base1::getLadu
+24    (int (*)(...))Base1::getBhaji
+
+Class Base1
+   size=8 align=4
+   base size=8 base align=4
+Base1 (0x0xb6570230) 0
+    vptr=((& Base1::_ZTV5Base1) + 8u)
+
+Vtable for Base2
+Base2::_ZTV5Base2: 6u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI5Base2)
+8     (int (*)(...))Base2::getPoha
+12    (int (*)(...))Base2::getUpma
+16    (int (*)(...))Base2::getBhaji
+20    (int (*)(...))Base2::getBurger
+
+Class Base2
+   size=8 align=4
+   base size=8 base align=4
+Base2 (0x0xb65703f0) 0
+    vptr=((& Base2::_ZTV5Base2) + 8u)
+
+Vtable for Derived
+Derived::_ZTV7Derived: 15u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI7Derived)
+8     (int (*)(...))Derived::getWadapav
+12    (int (*)(...))Base1::getShira
+16    (int (*)(...))Derived::getPoha
+20    (int (*)(...))Base1::getLadu
+24    (int (*)(...))Base1::getBhaji
+28    (int (*)(...))Derived::getUpma
+32    (int (*)(...))Derived::getLimbuSharbat
+36    (int (*)(...))-8
+40    (int (*)(...))(& _ZTI7Derived)
+44    (int (*)(...))Derived::_ZThn8_N7Derived7getPohaEv
+48    (int (*)(...))Derived::_ZThn8_N7Derived7getUpmaEv
+52    (int (*)(...))Base2::getBhaji
+56    (int (*)(...))Base2::getBurger
+
+Class Derived
+   size=16 align=4
+   base size=16 base align=4
+Derived (0x0xb663e000) 0
+    vptr=((& Derived::_ZTV7Derived) + 8u)
+  Base1 (0x0xb6570498) 0
+      primary-for Derived (0x0xb663e000)
+  Base2 (0x0xb6570690) 8
+      vptr=((& Derived::_ZTV7Derived) + 44u)
+
