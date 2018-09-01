@@ -6,7 +6,8 @@ class Derived2 : public Base
 	float property;
 	public:
 	Derived2();
-	float getWadapav() const;
+	float getWadapav() const override;
+	//float getWadapav(int x) const;
 	virtual void getSandwich();
 	void CalculateProfit(); 
 };

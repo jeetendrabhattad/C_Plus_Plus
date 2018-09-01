@@ -9,6 +9,6 @@ class Square : public Shape
 	Square(int len = 5);
 	~Square();
 	void SetLength( const int len );
-	void Draw(); // override
+	void Draw(); // override - prototype must be exactly same as Base class.
 };
 #endif

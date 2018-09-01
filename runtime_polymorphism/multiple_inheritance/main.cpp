@@ -19,8 +19,8 @@ int main()
 	base1_obj->getLadu();
 	base1_obj->getBhaji();
 	base1_obj->getShira();
-	dynamic_cast<Derived*>(base1_obj)->getUpma();
-	dynamic_cast<Derived*>(base1_obj)->getLimbuSharbat();
+	//dynamic_cast<Derived*>(base1_obj)->getUpma();
+	//dynamic_cast<Derived*>(base1_obj)->getLimbuSharbat();
 	std::cout<<"Now its time to use base2's pointer\n";
 //base class 2 pointer pointing to derived object
 	base2_obj = &derived_obj;
@@ -28,6 +28,6 @@ int main()
 	base2_obj->getUpma();
 	base2_obj->getBhaji();
 	base2_obj->getBurger();
-	static_cast<Derived*>(base2_obj)->getWadapav();
-	dynamic_cast<Derived*>(base2_obj)->getLimbuSharbat();
+	//static_cast<Derived*>(base2_obj)->getWadapav();
+	//dynamic_cast<Derived*>(base2_obj)->getLimbuSharbat();
 }

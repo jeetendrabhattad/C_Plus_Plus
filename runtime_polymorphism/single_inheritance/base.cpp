@@ -2,7 +2,6 @@
 
 Base::Base() : property(200000)
 {
-
 }
 
 float Base::getWadapav() const
@@ -35,7 +34,6 @@ int main()
 	Base *bPtr = &obj;
 	bPtr->getWadapav();
 	bPtr->Display();	
-
 }
 
 #endif

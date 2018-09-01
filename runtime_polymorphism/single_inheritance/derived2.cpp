@@ -28,12 +28,12 @@ int main()
 {
 	Derived2 obj;
 	obj.getWadapav();
-	
+    std::cout<<"Sizeof derived object:"<<sizeof(obj)<<std::endl;
 	Base *ptr = &obj;
-	ptr->getWadapav();
+	ptr->getWadapav();//
 	ptr->getShira();
     //ptr->getSandwich();
-	dynamic_cast<Derived2*>(ptr)->getSandwich();
+	//dynamic_cast<Derived2*>(ptr)->getSandwich();
 
 	return 0;
 }
