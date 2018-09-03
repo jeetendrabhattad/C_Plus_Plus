@@ -4,7 +4,6 @@
 class Base
 {
 	int property;
-
 	public:
 	Base();
 	virtual float getWadapav() const;
