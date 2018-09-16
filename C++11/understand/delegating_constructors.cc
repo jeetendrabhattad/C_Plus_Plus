@@ -56,8 +56,12 @@ class CString
     }
     ~CString()
     {
-        cout<<"Destructor "<<m_data<<endl;
-        delete[] m_data;
+        cout<<"Destructor "<<endl;
+        if(NULL != m_data)
+        { 
+            cout<<"Destructor "<<m_data<<endl;
+            delete[] m_data;
+        }
         //m_data = NULL;
     }
     //move constructor
@@ -80,12 +84,14 @@ class CString
         }
         else
         {
-            cout<<"Deep Copy via Move Assignment Operator\n";
+            cout<<"Deep Copy via Move Assignment Operator :"<<obj.m_data<<endl;
             if(this->m_data)
                 delete[] this->m_data;
             this->m_size = obj.m_size;
             this->m_data = obj.m_data;
+            cout<<"this->m_data:"<<this->m_data<<endl;
             obj.m_data = NULL;
+            cout<<"this->m_data:"<<this->m_data<<endl;
         }
         return *this;
     }
@@ -122,6 +128,6 @@ int main()
     cout<<"Creating obj1\n";
     CString obj1;
     obj1 = getNewString();
-  
+    cout<<"GetData "<<obj1.getData()<<endl; 
     return 0;
 }
