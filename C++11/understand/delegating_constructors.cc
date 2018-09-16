@@ -60,9 +60,49 @@ class CString
         delete[] m_data;
         //m_data = NULL;
     }
+    //move constructor
+    CString(CString &&obj)
+    {
+        cout<<"Move Constructor\n";
+        if(this->m_data)
+            delete[] m_data;
+        this->m_size = obj.m_size;
+        this->m_data = obj.m_data;
+        obj.m_data = NULL;
+    }
+  
+    CString& operator=(CString &&obj)
+    {
+        cout<<"Move Assignment Operator\n";
+        if(this == &obj)
+        {
+            cout<<"Self move, nothing needs to be done.\n";
+        }
+        else
+        {
+            cout<<"Deep Copy via Move Assignment Operator\n";
+            if(this->m_data)
+                delete[] this->m_data;
+            this->m_size = obj.m_size;
+            this->m_data = obj.m_data;
+            obj.m_data = NULL;
+        }
+        return *this;
+    }
+
 };
+CString getNewString()
+{
+    CString obj1(8, "Ganpati");
+    return obj1;
+}
 int main()
 {
+    int i = 10;
+    int &iRef = i;
+    int &&j = 20;
+    int &&rvalueRef = 100;
+#if 0
     CString s1;
     CString s2(6, "hello");
     CString s3(std::string("Cool"));
@@ -73,9 +113,15 @@ int main()
 
     CString s4(s3);//copy constructor
 
-    s2 = s4;
-    s2 = s2;
+    s2 = s4;//assingment
+    s2 = s2;//self-assignment
     CString s5(CString(6, "Morya"));
     // x(6, "Morya"), s5(x)
+#endif
+    CString obj = getNewString();
+    cout<<"Creating obj1\n";
+    CString obj1;
+    obj1 = getNewString();
+  
     return 0;
 }
