@@ -22,7 +22,6 @@ void Derived2::CalculateProfit()
 	std::cout<<"Derived2::"<<__FUNCTION__<<std::endl;
 }
 
-#if STANDALONE_DERIVED
 
 int main()
 {
@@ -37,4 +36,3 @@ int main()
 
 	return 0;
 }
-#endif

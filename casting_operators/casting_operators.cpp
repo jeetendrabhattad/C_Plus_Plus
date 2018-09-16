@@ -49,6 +49,7 @@ int main()
 	Base *ptr;
 	Derived dObj;
 	ptr = &dObj;
+    #if 0
 	ptr->Display();
 	static_cast<Derived*>(ptr)->OnlyDerived();
 	static_cast<Derived*>(ptr)->Test();
@@ -56,7 +57,9 @@ int main()
 	//cdObj->b = 100;
 	// changing value of constant object using const_cast
 	const_cast<Derived*>(cdObj)->b = 100;
+    #endif
 	// Reinterpreting Base Pointer as Test Object; 
+    //it must be used only when the memory which is reinterpreted as different type has similar internal layout of that type. Otherwise the behavior is un-defined.
 	Test *obj = reinterpret_cast<Test*>(ptr);
 	obj->TestDisplay();
 	return 0;

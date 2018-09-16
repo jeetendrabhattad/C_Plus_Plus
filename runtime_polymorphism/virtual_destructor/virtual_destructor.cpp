@@ -32,10 +32,11 @@ class Derived : public Base
 
 int main()
 {
-//	Base bobj;
-//	Derived dobj;
+// no problem in flow of constructor - destructor calls as its a direct object
+//	Base bobj(10);
+//	Derived dobj(10);
 
 	Base *baseptr = new Derived(10);
-
+    //delete internally results into invoking destructor. Compiler checks the type of pointer and then verifies if destructor of that type is virtual or not. If not virtual resolve the address at compile time with respective types destructor o.w put the code in place for invoking destructor at runtime of pointed type(if pointed type is dervied then reverse order of destructor invocation will be implicitly followed).
 	delete baseptr;
 }

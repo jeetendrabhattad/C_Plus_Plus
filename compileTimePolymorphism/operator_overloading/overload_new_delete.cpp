@@ -34,8 +34,6 @@ void* operator new(size_t num, char x)
 		*(char*)ptr = x;
     return ptr;
 }
-
-
 class Test
 {
 	int a;
@@ -73,12 +71,13 @@ int main()
 	int* s = new int;
 	// overloaded delete
 	delete s;
-#endif
+#else
 	// initializing memory when it's allocated (placing default value while allocation)
     char *p = new('*') char;
 	std::cout<<*p<<std::endl;
 	delete p;
 	// Managing memory allocation-deallocation from static memory.
 	MemoryManagement();
+#endif
 }
 
